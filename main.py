@@ -10,7 +10,7 @@ from telegram.ext import (
 
 from agent import LLM
 import os
-TOKEN = "80815026:AAFfxRxpx_FVlriQr5I3dTX89QdK6sS5nMk"
+TOKEN = os.environ.get("T_KEY")
 
 ASK = 1
 
