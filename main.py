@@ -9,8 +9,8 @@ from telegram.ext import (
 )
 
 from agent import LLM
-
-TOKEN = "8081502126:AAFfxRxpx_FVlriQr5I3dTX89QdK6sS5nMk"
+import os
+TOKEN = os.getenv("API_KEY")
 
 ASK = 1
 
