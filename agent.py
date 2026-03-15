@@ -2,7 +2,7 @@ import openai
 from deep_translator import GoogleTranslator
 
 # Вставь свой API-ключ
-openai.api_key = "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"
+openai.api_key = os.getenv("API_KEY")
 
 def LLM(prompt: str) -> str:
     """
