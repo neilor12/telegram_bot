@@ -1,5 +1,6 @@
 import openai
 from deep_translator import GoogleTranslator
+import os
 
 # Вставь свой API-ключ
 openai.api_key = os.getenv("API_KEY")
